@@ -1,7 +1,6 @@
 package cn.cpoet.clever.annotation.context;
 
 import cn.cpoet.clever.annotation.RequestWrapper;
-import cn.cpoet.clever.constant.WebAppType;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.core.env.Environment;
@@ -41,13 +40,6 @@ public interface AppContext {
      * @return 认证上下文
      */
     AuthContext authContext();
-
-    /**
-     * 获取当前应用的类型
-     *
-     * @return 应用类型
-     */
-    WebAppType getAppType();
 
     /**
      * 获取全局请求包装器
