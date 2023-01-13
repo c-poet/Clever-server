@@ -21,10 +21,11 @@
     <module>clever-core</module>
     <module>clever-modules</module>
     <module>clever-util</module>
-    <module>note-domain</module>
     <module>clever-adapter</module>
     <module>clever-standalone-server</module>
     <module>clever-cloud-gateway</module>
+    <module>clever-plugin-api</module>
+    <module>clever-plugin</module>
   </modules>
 
   <properties>
@@ -72,6 +73,18 @@
       <dependency>
         <groupId>cn.cpoet</groupId>
         <artifactId>clever-util</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>cn.cpoet</groupId>
+        <artifactId>clever-plugin-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>cn.cpoet</groupId>
+        <artifactId>clever-plugin</artifactId>
         <version>${project.version}</version>
       </dependency>
 
