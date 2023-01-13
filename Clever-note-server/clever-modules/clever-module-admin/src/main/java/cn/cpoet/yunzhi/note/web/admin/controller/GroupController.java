@@ -1,12 +1,12 @@
 package cn.cpoet.yunzhi.note.web.admin.controller;
 
-import cn.cpoet.yunzhi.note.annotation.constant.LogicEnum;
-import cn.cpoet.yunzhi.note.annotation.validator.group.Insert;
-import cn.cpoet.yunzhi.note.annotation.validator.group.Update;
-import cn.cpoet.yunzhi.note.auth.annotion.HasPermission;
-import cn.cpoet.yunzhi.note.core.query.IdListQuery;
-import cn.cpoet.yunzhi.note.core.query.IdQuery;
-import cn.cpoet.yunzhi.note.core.vo.PageVO;
+import cn.cpoet.clever.constant.LogicEnum;
+import cn.cpoet.clever.core.validator.group.Insert;
+import cn.cpoet.clever.core.validator.group.Update;
+import cn.cpoet.clever.auth.annotion.HasPermission;
+import cn.cpoet.clever.core.query.IdListQuery;
+import cn.cpoet.clever.core.query.IdQuery;
+import cn.cpoet.clever.core.vo.PageVO;
 import cn.cpoet.yunzhi.note.web.admin.dto.GroupDTO;
 import cn.cpoet.yunzhi.note.web.admin.query.GroupQuery;
 import cn.cpoet.yunzhi.note.web.admin.service.GroupService;

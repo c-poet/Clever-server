@@ -3,7 +3,7 @@ package cn.cpoet.yunzhi.note.web.wsocket.socket;
 import cn.cpoet.yunzhi.note.annotation.auth.Subject;
 import cn.cpoet.yunzhi.note.annotation.constant.SubjectType;
 import cn.cpoet.yunzhi.note.annotation.util.AppContextUtil;
-import cn.cpoet.yunzhi.note.core.support.ServletRequestWrapper;
+import cn.cpoet.clever.core.support.ServletRequestWrapper;
 import cn.cpoet.yunzhi.note.web.wsocket.constant.WSocketConst;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.server.ServerHttpRequest;

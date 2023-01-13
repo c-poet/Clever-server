@@ -1,12 +1,12 @@
 package cn.cpoet.yunzhi.note.web.admin.service;
 
-import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
+import cn.cpoet.clever.constant.SystemConst;
 import cn.cpoet.yunzhi.note.comm.iquery.util.IQueryUtil;
 import cn.cpoet.yunzhi.note.comm.service.IGroupService;
 import cn.cpoet.yunzhi.note.comm.service.IMemberService;
-import cn.cpoet.yunzhi.note.core.constant.CommReqsStatus;
-import cn.cpoet.yunzhi.note.core.exception.ReqsException;
-import cn.cpoet.yunzhi.note.core.vo.PageVO;
+import cn.cpoet.clever.core.constant.CommReqsStatus;
+import cn.cpoet.clever.core.exception.ReqsException;
+import cn.cpoet.clever.core.vo.PageVO;
 import cn.cpoet.yunzhi.note.domain.model.Group;
 import cn.cpoet.yunzhi.note.domain.model.query.QGroup;
 import cn.cpoet.yunzhi.note.web.admin.dto.GroupDTO;

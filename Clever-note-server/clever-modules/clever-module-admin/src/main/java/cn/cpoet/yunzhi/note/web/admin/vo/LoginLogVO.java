@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.web.admin.vo;
 
-import cn.cpoet.yunzhi.note.core.util.BeanUtil;
+import cn.cpoet.clever.core.util.BeanUtil;
 import cn.cpoet.yunzhi.note.domain.constant.LoginType;
 import cn.cpoet.yunzhi.note.domain.constant.LogoutType;
 import cn.cpoet.yunzhi.note.domain.model.LoginLog;

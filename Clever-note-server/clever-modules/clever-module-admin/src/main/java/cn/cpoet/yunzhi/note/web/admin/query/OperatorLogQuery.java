@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.web.admin.query;
 
-import cn.cpoet.yunzhi.note.annotation.logger.ActionTypes;
-import cn.cpoet.yunzhi.note.core.query.PageQuery;
+import cn.cpoet.clever.constant.ActionTypes;
+import cn.cpoet.clever.core.query.PageQuery;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 

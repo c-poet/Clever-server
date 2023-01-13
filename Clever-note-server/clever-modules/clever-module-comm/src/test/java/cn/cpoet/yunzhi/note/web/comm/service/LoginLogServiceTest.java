@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.web.comm.service;
 
-import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
+import cn.cpoet.clever.constant.SystemConst;
 import cn.cpoet.yunzhi.note.domain.constant.LoginType;
 import cn.cpoet.yunzhi.note.domain.model.LoginLog;
 import org.junit.jupiter.api.Test;

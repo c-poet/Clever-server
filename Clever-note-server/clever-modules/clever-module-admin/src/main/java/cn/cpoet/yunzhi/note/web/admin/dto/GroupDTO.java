@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.web.admin.dto;
 
-import cn.cpoet.yunzhi.note.annotation.validator.group.Insert;
-import cn.cpoet.yunzhi.note.annotation.validator.group.Update;
+import cn.cpoet.clever.core.validator.group.Insert;
+import cn.cpoet.clever.core.validator.group.Update;
 import cn.cpoet.yunzhi.note.domain.constant.CommStatus;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  cn.cpoet.yunzhi.note.core.configuration.CoreConfig
+  cn.cpoet.clever.core.configuration.CoreConfig

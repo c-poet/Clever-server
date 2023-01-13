@@ -4,7 +4,7 @@ import cn.cpoet.yunzhi.note.comm.iquery.core.IQueryWrapper;
 import cn.cpoet.yunzhi.note.comm.service.IGroupService;
 import cn.cpoet.yunzhi.note.comm.service.IMemberService;
 import cn.cpoet.yunzhi.note.comm.service.IRoleService;
-import cn.cpoet.yunzhi.note.core.vo.PageVO;
+import cn.cpoet.clever.core.vo.PageVO;
 import cn.cpoet.yunzhi.note.domain.model.Group;
 import cn.cpoet.yunzhi.note.domain.model.Member;
 import cn.cpoet.yunzhi.note.domain.model.Role;

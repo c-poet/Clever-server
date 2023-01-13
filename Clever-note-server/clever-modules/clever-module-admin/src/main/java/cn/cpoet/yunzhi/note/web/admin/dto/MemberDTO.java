@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.web.admin.dto;
 
-import cn.cpoet.yunzhi.note.annotation.validator.CommValidatorRuleKeys;
-import cn.cpoet.yunzhi.note.annotation.validator.DynamicValidator;
+import cn.cpoet.clever.core.validator.CommValidatorRuleKeys;
+import cn.cpoet.clever.core.validator.DynamicValidator;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 

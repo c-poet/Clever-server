@@ -1,8 +1,8 @@
 package cn.cpoet.yunzhi.note.web.wsocket.socket;
 
 import cn.cpoet.yunzhi.note.annotation.auth.Subject;
-import cn.cpoet.yunzhi.note.core.exception.ReqsException;
-import cn.cpoet.yunzhi.note.core.constant.CommReqsStatus;
+import cn.cpoet.clever.core.exception.ReqsException;
+import cn.cpoet.clever.core.constant.CommReqsStatus;
 import cn.cpoet.yunzhi.note.web.wsocket.component.SocketSessionHolder;
 import cn.cpoet.yunzhi.note.web.wsocket.constant.WSocketConst;
 import lombok.RequiredArgsConstructor;

@@ -1,9 +1,9 @@
 package cn.cpoet.yunzhi.note.web.admin.service;
 
-import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
-import cn.cpoet.yunzhi.note.annotation.validator.CommValidatorRuleKeys;
-import cn.cpoet.yunzhi.note.annotation.validator.DynamicRuleType;
-import cn.cpoet.yunzhi.note.annotation.validator.ValidatorBean;
+import cn.cpoet.clever.constant.SystemConst;
+import cn.cpoet.clever.core.validator.CommValidatorRuleKeys;
+import cn.cpoet.clever.core.validator.DynamicRuleType;
+import cn.cpoet.clever.core.validator.ValidatorBean;
 import cn.cpoet.yunzhi.note.comm.service.ISettingService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

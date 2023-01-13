@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.web.admin.controller;
 
-import cn.cpoet.yunzhi.note.auth.annotion.HasPermission;
-import cn.cpoet.yunzhi.note.core.vo.PageVO;
+import cn.cpoet.clever.auth.annotion.HasPermission;
+import cn.cpoet.clever.core.vo.PageVO;
 import cn.cpoet.yunzhi.note.web.admin.query.RouterQuery;
 import cn.cpoet.yunzhi.note.web.admin.service.RouterService;
 import cn.cpoet.yunzhi.note.web.admin.vo.RouterVO;

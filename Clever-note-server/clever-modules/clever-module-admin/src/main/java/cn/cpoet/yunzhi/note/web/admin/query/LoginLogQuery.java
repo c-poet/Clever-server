@@ -4,7 +4,7 @@ import cn.cpoet.yunzhi.note.comm.iquery.annotation.Between;
 import cn.cpoet.yunzhi.note.comm.iquery.annotation.Eq;
 import cn.cpoet.yunzhi.note.comm.iquery.annotation.Like;
 import cn.cpoet.yunzhi.note.comm.iquery.constant.LikeWays;
-import cn.cpoet.yunzhi.note.core.query.PageQuery;
+import cn.cpoet.clever.core.query.PageQuery;
 import cn.cpoet.yunzhi.note.domain.constant.LoginType;
 import cn.cpoet.yunzhi.note.domain.constant.LogoutType;
 import io.swagger.v3.oas.annotations.media.Schema;

@@ -1,11 +1,11 @@
 package cn.cpoet.yunzhi.note.web.admin.controller;
 
-import cn.cpoet.yunzhi.note.annotation.logger.ActionLog;
-import cn.cpoet.yunzhi.note.annotation.logger.ActionTypes;
-import cn.cpoet.yunzhi.note.auth.annotion.HasPermission;
-import cn.cpoet.yunzhi.note.core.query.IdListQuery;
-import cn.cpoet.yunzhi.note.core.query.IdQuery;
-import cn.cpoet.yunzhi.note.core.vo.PageVO;
+import cn.cpoet.clever.annotation.ActionLog;
+import cn.cpoet.clever.constant.ActionTypes;
+import cn.cpoet.clever.auth.annotion.HasPermission;
+import cn.cpoet.clever.core.query.IdListQuery;
+import cn.cpoet.clever.core.query.IdQuery;
+import cn.cpoet.clever.core.vo.PageVO;
 import cn.cpoet.yunzhi.note.web.admin.dto.MemberDTO;
 import cn.cpoet.yunzhi.note.web.admin.query.MemberQuery;
 import cn.cpoet.yunzhi.note.web.admin.service.MemberService;

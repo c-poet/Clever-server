@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.web.admin.vo;
 
-import cn.cpoet.yunzhi.note.annotation.logger.ActionTypes;
-import cn.cpoet.yunzhi.note.core.util.BeanUtil;
+import cn.cpoet.clever.constant.ActionTypes;
+import cn.cpoet.clever.core.util.BeanUtil;
 import cn.cpoet.yunzhi.note.domain.model.OperatorLog;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;

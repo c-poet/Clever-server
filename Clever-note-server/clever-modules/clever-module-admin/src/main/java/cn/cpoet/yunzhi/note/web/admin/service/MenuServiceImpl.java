@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.web.admin.service;
 
 import cn.cpoet.yunzhi.note.annotation.auth.Subject;
-import cn.cpoet.yunzhi.note.core.util.TreeUtil;
+import cn.cpoet.clever.core.util.TreeUtil;
 import cn.cpoet.yunzhi.note.domain.constant.PermissionType;
 import cn.cpoet.yunzhi.note.domain.model.Permission;
 import cn.cpoet.yunzhi.note.domain.model.PermissionExt;

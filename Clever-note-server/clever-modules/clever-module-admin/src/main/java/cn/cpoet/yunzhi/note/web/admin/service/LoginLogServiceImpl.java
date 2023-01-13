@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.web.admin.service;
 
 import cn.cpoet.yunzhi.note.comm.iquery.util.IQueryUtil;
-import cn.cpoet.yunzhi.note.core.vo.PageVO;
+import cn.cpoet.clever.core.vo.PageVO;
 import cn.cpoet.yunzhi.note.domain.model.LoginLog;
 import cn.cpoet.yunzhi.note.domain.model.query.QLoginLog;
 import cn.cpoet.yunzhi.note.web.admin.query.LoginLogQuery;

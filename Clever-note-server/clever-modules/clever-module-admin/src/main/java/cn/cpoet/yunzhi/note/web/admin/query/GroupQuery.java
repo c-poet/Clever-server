@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.web.admin.query;
 
-import cn.cpoet.yunzhi.note.core.query.PageQuery;
+import cn.cpoet.clever.core.query.PageQuery;
 import cn.cpoet.yunzhi.note.domain.constant.CommStatus;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;

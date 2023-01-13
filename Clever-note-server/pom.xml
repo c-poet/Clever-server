@@ -21,7 +21,6 @@
     <module>clever-core</module>
     <module>clever-modules</module>
     <module>clever-util</module>
-    <module>note-comm</module>
     <module>note-domain</module>
     <module>clever-adapter</module>
     <module>clever-standalone-server</module>
@@ -122,8 +121,8 @@
     </dependency>
 
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-context</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
     </dependency>
 
     <dependency>

@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.web.admin.service;
 
-import cn.cpoet.yunzhi.note.core.vo.PageVO;
+import cn.cpoet.clever.core.vo.PageVO;
 import cn.cpoet.yunzhi.note.web.admin.query.LoginLogQuery;
 import cn.cpoet.yunzhi.note.web.admin.vo.LoginLogVO;
 

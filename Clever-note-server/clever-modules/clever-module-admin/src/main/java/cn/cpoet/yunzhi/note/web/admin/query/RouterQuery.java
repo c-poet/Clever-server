@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.web.admin.query;
 
-import cn.cpoet.yunzhi.note.core.query.PageQuery;
+import cn.cpoet.clever.core.query.PageQuery;
 import lombok.Data;
 
 /**
