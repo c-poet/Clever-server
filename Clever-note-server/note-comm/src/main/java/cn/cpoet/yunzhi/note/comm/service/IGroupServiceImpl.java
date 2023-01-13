@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.comm.service;
 
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
 import cn.cpoet.yunzhi.note.domain.base.ServiceImpl;
 import cn.cpoet.yunzhi.note.domain.constant.SettingKeys;
 import cn.cpoet.yunzhi.note.domain.exception.DomainException;

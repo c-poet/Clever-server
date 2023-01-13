@@ -1,12 +1,12 @@
 package cn.cpoet.yunzhi.note.comm.support;
 
-import cn.cpoet.yunzhi.note.api.auth.Subject;
-import cn.cpoet.yunzhi.note.api.constant.SubjectType;
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
-import cn.cpoet.yunzhi.note.api.util.AppContextUtil;
-import cn.cpoet.yunzhi.note.api.validator.UseRuleEnum;
-import cn.cpoet.yunzhi.note.api.validator.ValidatorBean;
-import cn.cpoet.yunzhi.note.api.validator.ValidatorSettingAdapter;
+import cn.cpoet.yunzhi.note.annotation.auth.Subject;
+import cn.cpoet.yunzhi.note.annotation.constant.SubjectType;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
+import cn.cpoet.yunzhi.note.annotation.util.AppContextUtil;
+import cn.cpoet.yunzhi.note.annotation.validator.UseRuleEnum;
+import cn.cpoet.yunzhi.note.annotation.validator.ValidatorBean;
+import cn.cpoet.yunzhi.note.annotation.validator.ValidatorSettingAdapter;
 import cn.cpoet.yunzhi.note.comm.service.ISettingService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import org.springframework.util.Assert;

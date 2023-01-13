@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.domain.impord;
 
-import cn.cpoet.yunzhi.note.api.util.JsonUtil;
+import cn.cpoet.yunzhi.note.annotation.util.JsonUtil;
 import com.fasterxml.jackson.core.type.TypeReference;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.CollectionUtils;

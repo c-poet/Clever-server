@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.domain.model;
 
-import cn.cpoet.yunzhi.note.api.logger.ActionTypes;
+import cn.cpoet.yunzhi.note.annotation.logger.ActionTypes;
 import cn.cpoet.yunzhi.note.domain.base.BaseRecordModel;
 import cn.cpoet.yunzhi.note.domain.constant.CompatibleDbTypes;
 import cn.cpoet.yunzhi.note.domain.constant.DbLenConst;

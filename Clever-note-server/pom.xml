@@ -11,19 +11,21 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cn.cpoet</groupId>
-  <artifactId>yunzhi-note</artifactId>
+  <artifactId>Clever-note-server</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
 
   <modules>
-    <module>note-api</module>
-    <module>note-auth</module>
-    <module>note-core</module>
+    <module>clever-annotation</module>
+    <module>clever-auth</module>
+    <module>clever-core</module>
+    <module>clever-modules</module>
+    <module>clever-util</module>
     <module>note-comm</module>
     <module>note-domain</module>
-    <module>note-space</module>
-    <module>note-web</module>
-    <module>note-script</module>
+    <module>clever-adapter</module>
+    <module>clever-standalone-server</module>
+    <module>clever-cloud-gateway</module>
   </modules>
 
   <properties>
@@ -52,31 +54,25 @@
       <!-- 内部模块 -->
       <dependency>
         <groupId>cn.cpoet</groupId>
-        <artifactId>note-api</artifactId>
+        <artifactId>clever-annotation</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>cn.cpoet</groupId>
-        <artifactId>note-auth</artifactId>
+        <artifactId>clever-auth</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>cn.cpoet</groupId>
-        <artifactId>note-core</artifactId>
+        <artifactId>clever-core</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <groupId>cn.cpoet</groupId>
-        <artifactId>note-comm</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>cn.cpoet</groupId>
-        <artifactId>note-domain</artifactId>
+        <artifactId>clever-util</artifactId>
         <version>${project.version}</version>
       </dependency>
 
@@ -172,7 +168,7 @@
   </repositories>
 
   <build>
-    <finalName>${project.artifactId}</finalName>
+    <finalName>${project.artifactId}.${maven.build.timestamp}</finalName>
 
     <resources>
       <resource>

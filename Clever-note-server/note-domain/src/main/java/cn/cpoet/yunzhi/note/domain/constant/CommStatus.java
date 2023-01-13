@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.domain.constant;
 
-import cn.cpoet.yunzhi.note.api.exception.EnumUndefinedException;
-import cn.cpoet.yunzhi.note.api.util.EnumUtil;
+import cn.cpoet.yunzhi.note.annotation.exception.EnumUndefinedException;
+import cn.cpoet.yunzhi.note.annotation.util.EnumUtil;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;
 import io.ebean.annotation.DbEnumValue;

@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.domain.common;
 
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
 import io.ebean.config.IdGenerator;
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,14 +8,14 @@ import lombok.extern.slf4j.Slf4j;
  * id生成器包装
  *
  * @author CPoet
- * @see cn.cpoet.yunzhi.note.api.core.IdGenerator
+ * @see cn.cpoet.yunzhi.note.annotation.core.IdGenerator
  * @see IdGenerator
  */
 @Slf4j
 public class IdGeneratorWrapper implements IdGenerator {
-    private final cn.cpoet.yunzhi.note.api.core.IdGenerator<?> thisIdGenerator;
+    private final cn.cpoet.yunzhi.note.annotation.core.IdGenerator<?> thisIdGenerator;
 
-    public IdGeneratorWrapper(cn.cpoet.yunzhi.note.api.core.IdGenerator<?> thisIdGenerator) {
+    public IdGeneratorWrapper(cn.cpoet.yunzhi.note.annotation.core.IdGenerator<?> thisIdGenerator) {
         this.thisIdGenerator = thisIdGenerator;
     }
 

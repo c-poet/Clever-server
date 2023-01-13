@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.domain.base;
 
-import cn.cpoet.yunzhi.note.api.core.AppContext;
-import cn.cpoet.yunzhi.note.api.util.GenericsUtil;
+import cn.cpoet.yunzhi.note.annotation.core.AppContext;
+import cn.cpoet.yunzhi.note.annotation.util.GenericsUtil;
 import io.ebean.DB;
 import io.ebean.Database;
 import org.springframework.beans.factory.InitializingBean;
@@ -17,7 +17,7 @@ import java.util.List;
 public abstract class IBaseServiceImpl<ENTITY, ID> implements InitializingBean, IBaseService<ENTITY, ID> {
 
     /**
-     * 未直接使用{@link cn.cpoet.yunzhi.note.api.util.AppContextUtil}已确保AppContext-Bean已经初始化
+     * 未直接使用{@link cn.cpoet.yunzhi.note.annotation.util.AppContextUtil}已确保AppContext-Bean已经初始化
      */
     @Autowired
     protected AppContext appContext;

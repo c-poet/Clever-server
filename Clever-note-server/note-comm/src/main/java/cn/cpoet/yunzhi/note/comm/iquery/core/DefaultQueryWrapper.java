@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.comm.iquery.core;
 
-import cn.cpoet.yunzhi.note.api.constant.LogicEnum;
+import cn.cpoet.yunzhi.note.annotation.constant.LogicEnum;
 import cn.cpoet.yunzhi.note.core.query.OrderQuery;
 import cn.cpoet.yunzhi.note.core.query.PageQuery;
 import io.ebean.typequery.TQRootBean;

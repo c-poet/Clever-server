@@ -1,7 +1,7 @@
 package cn.cpoet.yunzhi.note.domain.constant;
 
-import cn.cpoet.yunzhi.note.api.exception.EnumUndefinedException;
-import cn.cpoet.yunzhi.note.api.util.EnumUtil;
+import cn.cpoet.yunzhi.note.annotation.exception.EnumUndefinedException;
+import cn.cpoet.yunzhi.note.annotation.util.EnumUtil;
 import cn.cpoet.yunzhi.note.domain.base.BaseModel;
 import cn.cpoet.yunzhi.note.domain.model.File;
 import cn.cpoet.yunzhi.note.domain.model.Note;

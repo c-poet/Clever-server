@@ -1,7 +1,6 @@
 package cn.cpoet.yunzhi.note.domain.base;
 
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
-import io.ebean.Model;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
 import io.ebean.annotation.SoftDelete;
 import io.ebean.annotation.WhenCreated;
 import io.ebean.annotation.WhoCreated;

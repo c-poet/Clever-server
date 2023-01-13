@@ -1,10 +1,10 @@
 package cn.cpoet.yunzhi.note.domain.configuration;
 
-import cn.cpoet.yunzhi.note.api.auth.AuthContext;
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
-import cn.cpoet.yunzhi.note.api.core.IdGenerator;
-import cn.cpoet.yunzhi.note.api.core.SystemKeyHolder;
-import cn.cpoet.yunzhi.note.api.util.SecretUtil;
+import cn.cpoet.yunzhi.note.annotation.auth.AuthContext;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
+import cn.cpoet.yunzhi.note.annotation.core.IdGenerator;
+import cn.cpoet.yunzhi.note.annotation.core.SystemKeyHolder;
+import cn.cpoet.yunzhi.note.annotation.util.SecretUtil;
 import cn.cpoet.yunzhi.note.domain.common.IdGeneratorWrapper;
 import cn.cpoet.yunzhi.note.domain.configuration.auto.DataSourceProperties;
 import io.ebean.Database;

@@ -1,11 +1,11 @@
 package cn.cpoet.yunzhi.note.domain.constant;
 
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
 
 /**
  * 常用配置名称
- * <p>约定：系统相关配置名称以{@link cn.cpoet.yunzhi.note.api.constant.SystemConst#SETTING_SYS_PREFIX}为前缀，
- * 个人配置以{@link cn.cpoet.yunzhi.note.api.constant.SystemConst#SETTING_PERSON_PREFIX}为前缀.</p>
+ * <p>约定：系统相关配置名称以{@link cn.cpoet.yunzhi.note.annotation.constant.SystemConst#SETTING_SYS_PREFIX}为前缀，
+ * 个人配置以{@link cn.cpoet.yunzhi.note.annotation.constant.SystemConst#SETTING_PERSON_PREFIX}为前缀.</p>
  *
  * @author CPoet
  */

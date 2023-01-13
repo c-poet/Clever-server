@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.domain.configuration;
 
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
 import cn.cpoet.yunzhi.note.domain.configuration.auto.ImportProperties;
 import cn.cpoet.yunzhi.note.domain.impord.ImportJsonScanner;
 import cn.cpoet.yunzhi.note.domain.impord.ImportSupport;

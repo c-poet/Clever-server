@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.domain.base;
 
-import cn.cpoet.yunzhi.note.api.constant.SystemConst;
+import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;
 
 /**
  * @author CPoet

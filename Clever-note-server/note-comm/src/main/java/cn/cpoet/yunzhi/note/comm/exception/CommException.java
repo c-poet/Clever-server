@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.comm.exception;
 
-import cn.cpoet.yunzhi.note.api.exception.NoteException;
+import cn.cpoet.yunzhi.note.annotation.exception.NoteException;
 
 /**
  * @author CPoet

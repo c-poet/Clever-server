@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.domain.impord;
 
-import cn.cpoet.yunzhi.note.api.util.JsonUtil;
+import cn.cpoet.yunzhi.note.annotation.util.JsonUtil;
 import cn.cpoet.yunzhi.note.domain.configuration.auto.ImportProperties;
 import io.ebean.DB;
 import io.ebean.Database;

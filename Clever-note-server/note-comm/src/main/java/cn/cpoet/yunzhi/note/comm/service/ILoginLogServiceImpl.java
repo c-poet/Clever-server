@@ -1,6 +1,6 @@
 package cn.cpoet.yunzhi.note.comm.service;
 
-import cn.cpoet.yunzhi.note.api.util.AppContextUtil;
+import cn.cpoet.yunzhi.note.annotation.util.AppContextUtil;
 import cn.cpoet.yunzhi.note.domain.base.ServiceImpl;
 import cn.cpoet.yunzhi.note.domain.model.LoginLog;
 import cn.cpoet.yunzhi.note.domain.model.query.QLoginLog;
