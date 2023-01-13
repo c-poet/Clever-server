@@ -16,4 +16,23 @@
     <maven.compiler.target>8</maven.compiler.target>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>cn.cpoet</groupId>
+      <artifactId>clever-module-admin</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.cpoet</groupId>
+      <artifactId>clever-module-comm</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.cpoet</groupId>
+      <artifactId>clever-module-wsocket</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
 </project>
