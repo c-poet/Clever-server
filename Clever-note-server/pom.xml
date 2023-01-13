@@ -217,32 +217,21 @@
   <!-- 环境配置 -->
   <profiles>
     <profile>
-      <id>dev</id>
+      <id>standalone</id>
       <activation>
         <!--默认激活配置-->
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <!-- 环境名称 -->
-        <profile.name>dev</profile.name>
-        <!-- nacos地址 -->
+        <profile.name>standalone-dev</profile.name>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>cloud</id>
+      <properties>
+        <profile.name>cloud-dev</profile.name>
         <nacos.addr>localhost:8848</nacos.addr>
-      </properties>
-    </profile>
-
-    <profile>
-      <id>test</id>
-      <properties>
-        <profile.name>test</profile.name>
-        <nacos.addr>???</nacos.addr>
-      </properties>
-    </profile>
-
-    <profile>
-      <id>prod</id>
-      <properties>
-        <profile.name>prod</profile.name>
-        <nacos.addr>???</nacos.addr>
       </properties>
     </profile>
   </profiles>
