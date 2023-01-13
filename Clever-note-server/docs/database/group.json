@@ -1,0 +1,12 @@
+{
+    "type": "cn.cpoet.yunzhi.note.domain.model.Group",
+    "entities": [
+        {
+            "id": 9668012951474177,
+            "parentId": 0,
+            "name": "默认用户组",
+            "description": "默认用户组",
+            "status": 1
+        }
+    ]
+}

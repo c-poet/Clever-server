@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+  <!-- 加载配置文件中的内容 -->
+  <springProperty scope="context" name="logRoot" source="logging.file.path"/>
+  <springProperty scope="context" name="logModule" source="spring.application.name"/>
+
+  <!-- 标准输出格式 -->
+  <property name="STD_PATTERN"
+            value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %X{traceId}@%X{spanId} %logger{50} [%file:%line] %msg%n"/>
+
+  <!-- 带彩色的输出格式，用于Console -->
+  <property name="CONSOLE_PATTERN"
+            value="%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight(%-5level) [%thread] %red(%X{traceId}@%X{spanId}) %logger{50} [%file:%line] %msg%n"/>
+
+  <!-- 终端 -->
+  <appender name="CONSOLE_ALL" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>${CONSOLE_PATTERN}</pattern>
+    </encoder>
+  </appender>
+
+  <!-- 日志文件，警告 -->
+  <appender name="FILE_WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+      <level>WARN</level>
+      <onMatch>ACCEPT</onMatch>
+      <onMismatch>DENY</onMismatch>
+    </filter>
+    <file>${logRoot}/${logModule}-warn.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${logRoot}/${logModule}-warn-%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+      <maxHistory>360</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>${STD_PATTERN}</pattern>
+    </encoder>
+  </appender>
+
+  <!-- 日志文件，所有 -->
+  <appender name="FILE_ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${logRoot}/${logModule}-all.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${logRoot}/${logModule}-all-%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+      <maxHistory>36</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>${STD_PATTERN}</pattern>
+    </encoder>
+  </appender>
+
+  <root level="INFO">
+    <!-- 终端输出，生产环境无意义可注释掉 -->
+    <appender-ref ref="CONSOLE_ALL"/>
+    <!-- 日志文件记录 -->
+<!--    <appender-ref ref="FILE_WARN"/>-->
+<!--    <appender-ref ref="FILE_ALL"/>-->
+  </root>
+</configuration>

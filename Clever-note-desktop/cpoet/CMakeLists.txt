@@ -1,0 +1,5 @@
+add_subdirectory(core)
+add_subdirectory(plugin)
+add_subdirectory(theme)
+add_subdirectory(database)
+add_subdirectory(zlib)

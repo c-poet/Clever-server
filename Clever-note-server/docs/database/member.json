@@ -1,0 +1,21 @@
+{
+    "type": "cn.cpoet.yunzhi.note.domain.model.Member",
+    "entities": [
+        {
+            "id": 9668012951474176,
+            "name": "admin",
+            "nickName": "admin",
+            "account": "admin",
+            "avatar": null,
+            "password": "430e4990d288baa95e2baa3223a799b9",
+            "salt": "dec56bfb055d4f0880d1554202e1cc18",
+            "summary": "君问归期未有期！！",
+            "groupId": 9668012951474177,
+            "locked": false,
+            "status": 1,
+            "expiredTime": "2250-01-02 00:00:00",
+            "isBuiltIn": true,
+            "deleted": false
+        }
+    ]
+}

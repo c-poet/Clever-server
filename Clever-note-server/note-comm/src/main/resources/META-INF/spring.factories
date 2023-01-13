@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.cpoet.yunzhi.note.comm.configuration.CommConfig

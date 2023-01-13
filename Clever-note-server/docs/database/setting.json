@@ -1,0 +1,59 @@
+{
+    "type": "cn.cpoet.yunzhi.note.domain.model.Setting",
+    "entities": [
+        {
+            "id": 9720133182820352,
+            "name": "_siteTitle",
+            "content": "云知笔记",
+            "memberId": 0,
+            "status": 1,
+            "locked": false,
+            "isBuiltIn": true
+        },
+        {
+            "id": 9720133193830400,
+            "name": "_siteSubtitle",
+            "content": "开源私有云笔记",
+            "memberId": 0,
+            "status": 1,
+            "locked": false,
+            "isBuiltIn": true
+        },
+        {
+            "id": 9720133205364736,
+            "name": "_commonSecret",
+            "content": "FnYjs5g0EPs=",
+            "memberId": 0,
+            "status": 1,
+            "locked": false,
+            "isBuiltIn": true
+        },
+        {
+            "id": 9720133215588352,
+            "name": "_loginInfoEncrypt",
+            "content": "true",
+            "memberId": 0,
+            "status": 1,
+            "locked": false,
+            "isBuiltIn": true
+        },
+        {
+            "id": 9720133215588353,
+            "name": "_defaultGroupId",
+            "content": "9668012951474177",
+            "memberId": 0,
+            "status": 1,
+            "locked": false,
+            "isBuiltIn": true
+        },
+        {
+            "id": 10492824257564672,
+            "name": "_memberAccountValidatorRule",
+            "content": "[{\"rule\":\"^[1-9a-zA-Z_]{6,42}$\",\"ruleType\":\"REGEX\",\"message\":\"账号由数字、字母及'_'组成，长度在6-42之间\"}]",
+            "memberId": 0,
+            "status": 1,
+            "locked": false,
+            "isBuiltIn": true
+        }
+    ]
+}

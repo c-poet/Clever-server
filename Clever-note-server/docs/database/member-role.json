@@ -1,0 +1,17 @@
+{
+    "type": "cn.cpoet.yunzhi.note.domain.model.MemberRole",
+    "entities": [
+        {
+            "id": null,
+            "memberId": 9668012951474176,
+            "roleId": 9672671196876800,
+            "deleted": false
+        },
+        {
+            "id": null,
+            "memberId": 9668012951474176,
+            "roleId": 9672671264247808,
+            "deleted": false
+        }
+    ]
+}

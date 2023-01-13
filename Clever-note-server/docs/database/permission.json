@@ -1,0 +1,89 @@
+{
+    "type": "cn.cpoet.yunzhi.note.domain.model.Permission",
+    "entities": [
+        {
+            "id": 9672748755849216,
+            "parentId": 0,
+            "code": "userManager",
+            "name": "用户管理",
+            "description": "用户管理",
+            "bindI18n": null,
+            "isBuiltIn": true,
+            "status": 1,
+            "sorted": 99,
+            "type": 2,
+            "hasExt": false,
+            "deleted": false
+        },
+        {
+            "id": 9672961172705280,
+            "parentId": 9672748755849216,
+            "code": "group",
+            "name": "用户组",
+            "description": "用户组",
+            "bindI18n": null,
+            "isBuiltIn": true,
+            "status": 1,
+            "sorted": 98,
+            "type": 2,
+            "hasExt": true,
+            "deleted": false
+        },
+        {
+            "id": 9672961247940608,
+            "parentId": 9672748755849216,
+            "code": "user",
+            "name": "用户管理",
+            "description": "用户管理",
+            "bindI18n": null,
+            "isBuiltIn": true,
+            "status": 1,
+            "sorted": 99,
+            "type": 2,
+            "hasExt": true,
+            "deleted": false
+        },
+        {
+            "id": 9672748851269632,
+            "parentId": 0,
+            "code": "rbacManager",
+            "name": "权限管理",
+            "description": "权限管理",
+            "bindI18n": null,
+            "isBuiltIn": true,
+            "status": 1,
+            "sorted": 99,
+            "type": 2,
+            "hasExt": false,
+            "deleted": false
+        },
+        {
+            "id": 9672961373245440,
+            "parentId": 9672748851269632,
+            "code": "role",
+            "name": "角色管理",
+            "description": "角色管理",
+            "bindI18n": null,
+            "isBuiltIn": true,
+            "status": 1,
+            "sorted": 99,
+            "type": 2,
+            "hasExt": true,
+            "deleted": false
+        },
+        {
+            "id": 9672961476005888,
+            "parentId": 9672748851269632,
+            "code": "permission",
+            "name": "操作权限",
+            "description": "操作权限",
+            "bindI18n": null,
+            "isBuiltIn": true,
+            "status": 1,
+            "sorted": 99,
+            "type": 2,
+            "hasExt": true,
+            "deleted": false
+        }
+    ]
+}

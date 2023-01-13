@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+    <!-- 主题id，唯一值 -->
+    <id value="default">default</id>
+    <!-- 主题名称 -->
+    <name>默认主题</name>
+    <!-- 作者 -->
+    <author>CPoet</author>
+    <!-- 主页url -->
+    <url>https://github.com/cpoet77/Clever-note-desktop</url>
+    <!-- 详细介绍 -->
+    <description>
+        !<![CDATA[
+        <b>Clever-Note默认主题，简单而平凡。</b>        
+        <p>GitHub地址: <a href="https://github.com/cpoet77/Clever-note-desktop">https://github.com/cpoet77/Clever-note-desktop</a></p>
+        ]]>
+    </description>
+    <!-- 样式文件列表 -->
+    <files>
+        <file type="scss">index.scss</file>
+        <file type="css">ext.css</file>
+    </files>
+</theme>

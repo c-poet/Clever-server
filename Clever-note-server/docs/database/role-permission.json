@@ -1,0 +1,41 @@
+{
+    "type": "cn.cpoet.yunzhi.note.domain.model.RolePermission",
+    "entities": [
+        {
+            "id": null,
+            "roleId": 9672671196876800,
+            "permissionId": 9672748755849216,
+            "deleted": false
+        },
+        {
+            "id": null,
+            "roleId": 9672671196876800,
+            "permissionId": 9672748851269632,
+            "deleted": false
+        },
+        {
+            "id": null,
+            "roleId": 9672671196876800,
+            "permissionId": 9672961172705280,
+            "deleted": false
+        },
+        {
+            "id": null,
+            "roleId": 9672671196876800,
+            "permissionId": 9672961247940608,
+            "deleted": false
+        },
+        {
+            "id": null,
+            "roleId": 9672671196876800,
+            "permissionId": 9672961373245440,
+            "deleted": false
+        },
+        {
+            "id": null,
+            "roleId": 9672671196876800,
+            "permissionId": 9672961476005888,
+            "deleted": false
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "cn.cpoet.yunzhi.note.domain.model.Router",
+    "entities": [
+        {
+            "id": 9668050922770432,
+            "uri": "lb://yunzhi-note-web-comm",
+            "predicates": [
+                "Path=/api/**"
+            ],
+            "filters": [
+                "RewritePath=/api/?(?<segment>.*),/$\\{segment}"
+            ],
+            "status": 1,
+            "sorted": 99,
+            "deleted": false
+        },
+        {
+            "id": 9668050922770433,
+            "uri": "lb://yunzhi-note-web-admin",
+            "predicates": [
+                "Path=/api/admin/**"
+            ],
+            "filters": [
+                "RewritePath=/api/admin/?(?<segment>.*),/$\\{segment}"
+            ],
+            "status": 1,
+            "sorted": 10,
+            "deleted": false
+        },
+        {
+            "id": 9923126997291008,
+            "uri": "lb:ws://yunzhi-note-web-wsocket",
+            "predicates": [
+                "Path=/api/wsocket/**"
+            ],
+            "filters": [
+                "RewritePath=/api/wsocket/?(?<segment>.*),/$\\{segment}"
+            ],
+            "status": 1,
+            "sorted": 10,
+            "deleted": false
+        }
+    ]
+}
