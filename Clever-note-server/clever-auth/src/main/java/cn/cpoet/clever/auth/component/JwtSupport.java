@@ -5,6 +5,7 @@ import cn.cpoet.clever.annotation.context.AppContext;
 import cn.cpoet.clever.annotation.context.Subject;
 import cn.cpoet.clever.auth.configuration.auto.AuthTokenProperties;
 import cn.cpoet.clever.auth.constant.JwtConst;
+import cn.cpoet.clever.auth.core.AuthSubjectBuilder;
 import cn.cpoet.clever.util.UUIDUtil;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -17,6 +18,7 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
+import java.util.Collections;
 import java.util.Date;
 import java.util.Set;
 
@@ -88,7 +90,8 @@ public class JwtSupport {
     }
 
     private Set<String> doListRole(Long uid) {
-        return memberFeign.listRole(new IdQuery(uid));
+//        return memberFeign.listRole(new IdQuery(uid));
+        return Collections.emptySet();
     }
 
     private Set<String> doListPermission(Long uid) {

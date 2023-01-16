@@ -4,7 +4,7 @@ import cn.cpoet.clever.annotation.core.AppContext;
 import cn.cpoet.clever.annotation.core.SystemKeyHolder;
 import cn.cpoet.clever.core.aspect.FeignTargetAspect;
 import cn.cpoet.clever.core.configuration.auto.SecretProperties;
-import cn.cpoet.clever.core.support.DefaultAppContext;
+import cn.cpoet.clever.core.context.DefaultAppContext;
 import cn.cpoet.clever.core.support.SimpleUUIDGenerator;
 import cn.cpoet.clever.core.support.SystemKeyHolderImpl;
 import cn.cpoet.yunzhi.note.annotation.constant.SystemConst;

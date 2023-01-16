@@ -1,8 +1,8 @@
 package cn.cpoet.clever.auth.core;
 
+import cn.cpoet.yunzhi.note.annotation.cache.ICacheKey;
 import cn.cpoet.yunzhi.note.annotation.constant.LogicEnum;
 import cn.cpoet.yunzhi.note.annotation.constant.SubjectType;
-import cn.cpoet.yunzhi.note.annotation.cache.ICacheKey;
 import lombok.AccessLevel;
 import lombok.Setter;
 import org.springframework.util.CollectionUtils;

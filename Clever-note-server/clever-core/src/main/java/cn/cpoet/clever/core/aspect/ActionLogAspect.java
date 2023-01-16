@@ -1,7 +1,6 @@
 package cn.cpoet.clever.core.aspect;
 
 import cn.cpoet.clever.annotation.ActionLog;
-import cn.cpoet.clever.annotation.ActionLogConsumer;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

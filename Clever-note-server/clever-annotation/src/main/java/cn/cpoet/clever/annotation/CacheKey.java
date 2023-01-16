@@ -1,12 +1,6 @@
 package cn.cpoet.clever.annotation;
 
-import cn.cpoet.clever.constant.ElementExpEnum;
-
-import java.lang.annotation.Documented;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
 /**
  * 缓存Key
@@ -30,11 +24,4 @@ public @interface CacheKey {
      * @return 是否包含该参数
      */
     boolean required() default true;
-
-    /**
-     * 使用的El表达式
-     *
-     * @return El表达式
-     */
-    ElementExpEnum elExp() default ElementExpEnum.SIMPLE;
 }

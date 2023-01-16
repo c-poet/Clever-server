@@ -20,6 +20,11 @@
 
     <dependency>
       <groupId>cn.cpoet</groupId>
+      <artifactId>clever-adapter-annotation</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>cn.cpoet</groupId>
       <artifactId>clever-util</artifactId>
     </dependency>
 

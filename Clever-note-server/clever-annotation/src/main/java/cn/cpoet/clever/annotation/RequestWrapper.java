@@ -12,13 +12,6 @@ package cn.cpoet.clever.annotation;
  */
 public interface RequestWrapper {
     /**
-     * 是否存在请求
-     *
-     * @return 是否存在请求
-     */
-    boolean requesting();
-
-    /**
      * 获取远程主机地址
      *
      * @return 主机地址

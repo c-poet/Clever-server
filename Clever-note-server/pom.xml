@@ -74,6 +74,24 @@
         <version>${project.version}</version>
       </dependency>
 
+      <dependency>
+        <groupId>cn.cpoet</groupId>
+        <artifactId>clever-adapter-annotation</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>cn.cpoet</groupId>
+        <artifactId>clever-adapter-cloud</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>cn.cpoet</groupId>
+        <artifactId>clever-adapter-standalone</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
       <!-- 三方依赖 -->
       <dependency>
         <groupId>org.springframework.cloud</groupId>

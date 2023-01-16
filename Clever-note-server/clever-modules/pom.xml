@@ -27,11 +27,6 @@
   <dependencies>
     <dependency>
       <groupId>cn.cpoet</groupId>
-      <artifactId>clever-auth</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>cn.cpoet</groupId>
       <artifactId>clever-core</artifactId>
     </dependency>
 
@@ -51,6 +46,27 @@
     </dependency>
   </dependencies>
 
+  <profiles>
+    <profile>
+      <id>standalone</id>
+      <dependencies>
+        <dependency>
+          <groupId>cn.cpoet</groupId>
+          <artifactId>clever-adapter-standalone</artifactId>
+        </dependency>
+      </dependencies>
+    </profile>
+
+    <profile>
+      <id>cloud</id>
+      <dependencies>
+        <dependency>
+          <groupId>cn.cpoet</groupId>
+          <artifactId>clever-adapter-cloud</artifactId>
+        </dependency>
+      </dependencies>
+    </profile>
+  </profiles>
 
   <build>
     <plugins>

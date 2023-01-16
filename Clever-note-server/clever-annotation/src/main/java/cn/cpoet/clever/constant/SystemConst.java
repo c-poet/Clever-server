@@ -39,7 +39,7 @@ public interface SystemConst {
     /**
      * 系统前缀
      */
-    String SYSTEM_PREFIX = "yunzhi";
+    String SYSTEM_PREFIX = "clever";
 
     /**
      * 系统前缀带"-"
@@ -64,12 +64,12 @@ public interface SystemConst {
     /**
      * 全局ID生成器名称
      */
-    String GLOBAL_ID_GENERATOR = "yunzhi@global-id-generator";
+    String GLOBAL_ID_GENERATOR = "@global-id-generator";
 
     /**
      * 全局UUID生成器名称
      */
-    String GLOBAL_UUID_GENERATOR = "yunzhi@global-uuid-generator";
+    String GLOBAL_UUID_GENERATOR = "@global-uuid-generator";
 
     /**
      * 链路跟踪Id

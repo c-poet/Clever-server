@@ -1,6 +1,0 @@
-list_include_file(INC_FILE_LIST "${CMAKE_CURRENT_SOURCE_DIR}/inc")
-list_source_file(SRC_FILE_LIST "${CMAKE_CURRENT_SOURCE_DIR}/src")
-add_library(c_poet_zlib SHARED ${INC_FILE_LIST} ${SRC_FILE_LIST})
-target_link_libraries(c_poet_zlib PRIVATE c_poet_core zlib)
-target_include_directories(c_poet_zlib PRIVATE ${NOTE_LIB_PATH}/zlib-1.2.11)
-add_subdirectory(test)

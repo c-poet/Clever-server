@@ -1,3 +1,0 @@
-add_executable(xml_parser_test xml_parser.cpp)
-target_link_libraries(xml_parser_test PRIVATE c_poet_core)
-add_test(NAME xml_parser_test COMMAND xml_parser_test)

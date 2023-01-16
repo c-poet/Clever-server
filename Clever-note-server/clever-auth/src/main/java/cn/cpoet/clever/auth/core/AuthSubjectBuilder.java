@@ -1,6 +1,6 @@
 package cn.cpoet.clever.auth.core;
 
-import cn.cpoet.yunzhi.note.annotation.auth.Subject;
+import cn.cpoet.clever.annotation.context.Subject;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 
